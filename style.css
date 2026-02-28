@@ -1,9 +1,16 @@
 .banner{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4)),url(Background.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.4)),url(Background.png);
     background-size: cover;
-    background-color: cover;
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 
 .card:hover {
