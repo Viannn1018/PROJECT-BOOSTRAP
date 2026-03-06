@@ -115,3 +115,29 @@ footer ul.text-muted li {
 .footer .social-icon:hover {
   color: #FFC107;
 }
+
+.produk-banner {
+  background-position: center center;
+  height: 92vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-navbar{
+    background-color: #191a19;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #ffc107 !important;
+}
